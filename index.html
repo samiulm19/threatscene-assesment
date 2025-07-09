@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <!-- main section start here -->
+
+    <section class="contact__area">
+        <div class="container">
+            <div class="contact__content">
+                <div class="contact__title">
+                    <h4>Begin Your Cybersecurity Assessment</h4>
+                    <p>Our expert-designed assassment will evaluate your organization's security posture across multiple
+                        dimensions and provide you with acationable insights.</p>
+                </div>
+                <div class="contact__text__box">
+                    <div class="contact__text">
+                        <h5>What to expect:</h5>
+                        <div class="contact__list">
+                            <ul>
+                                <li><img src="assets/img/checkmark.svg" alt="">
+                                    <span>20 targeted questions covering key security domains</span>
+                                </li>
+                                <li><img src="assets/img/checkmark.svg" alt="">
+                                    <span>Immediate scoring and risk categorization</span>
+                                </li>
+                                <li><img src="assets/img/checkmark.svg" alt="">
+                                    <span>Detailed report with priorittized recommendations</span>
+                                </li>
+                                <li><img src="assets/img/checkmark.svg" alt="">
+                                    <span>Benchmarking against industry standards</span>
+                                </li>
+                                <li><img src="assets/img/checkmark.svg" alt="">
+                                    <span>Follow-up consultation with a security expert</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact__next">
+                            <a href="#" class="next__btn" id="showBtn">
+                                Start My Assessments
+                                <img src="assets/img/arrow-right.svg" alt="">
+                            </a>
+                            <span>Takes Approximately 15 minutes to complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main section end here -->
+
+
+
+    <section id="contact__box" style="display: none;">
+        <div class="container">
+            <div class="contact__box__content">
+                <div class="contact__box__title">
+                    <h1>How Prepared Is Your Organization for a Cyberattack?</h1>
+                    <p>Take our 5-minute self-assessment to find out your cyber readiness score — and get actionable
+                        recommendations.</p>
+                    <div class="box__title__span">
+                        <span class="span__left">[</span>
+                        <span class="span__right">]</span>
+                    </div>
+                </div>
+                <div class="form__container">
+                    <form id="msform">
+                        <!-- progressbar -->
+
+                        <div class="progress-wrapper hidden">
+                            <div class="progress__title">
+                                <div class="step-counter">Question 1 of 6</div>
+                                <div class="step__tile__text">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#0223F4" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-shield h-6 w-6 text-threatscene-blue">
+                                        <path
+                                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                        </path>
+                                    </svg>
+                                    <p>Cyber Readiness Quiz</p>
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                        </div>
+
+                        <!-- fieldsets -->
+                        <fieldset class="welcome-step">
+                            <div class="field__card__title">
+                                <h4>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="#0223F4" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-shield h-6 w-6 text-threatscene-blue">
+                                        <path
+                                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                        </path>
+                                    </svg>
+                                    Free Cyber Readiness Assessment
+                                </h4>
+                                <p>Evaluate your organization's security posture in just 5 minutes</p>
+                            </div>
+                            <div class="field__user__get">
+                                <p><strong>What you'll get:</strong> A personalized cyber readiness score, key risk
+                                    insights, and actionable recommendations to strengthen your security posture.</p>
+                            </div>
+                            <div class="feature__flex">
+                                <div class="single__feature">
+                                    <div class="feature__logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="#0223F4" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-lock h-5 w-5 text-threatscene-blue">
+                                            <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+                                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="feature__text">
+                                        <h4>Security Score</h4>
+                                        <p>Benchmark your organization against industry standards</p>
+                                    </div>
+                                </div>
+                                <div class="single__feature">
+                                    <div class="feature__logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="#0223F4" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-shield h-6 w-6 text-threatscene-blue">
+                                            <path
+                                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="feature__text">
+                                        <h4>Risk Assessment</h4>
+                                        <p>Identify your top security vulnerabilities and gaps</p>
+                                    </div>
+                                </div>
+                                <div class="single__feature">
+                                    <div class="feature__logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="#0223F4" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-circle-check-big h-5 w-5 text-threatscene-blue">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="feature__text">
+                                        <h4>Custom Recommendations</h4>
+                                        <p>Get actionable steps tailored to your situation</p>
+                                    </div>
+                                </div>
+                                <div class="single__feature">
+                                    <div class="feature__logo">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="#0223F4" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-mail-check h-5 w-5 text-threatscene-blue">
+                                            <path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"></path>
+                                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                            <path d="m16 19 2 2 4-4"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="feature__text">
+                                        <h4>Expert Report</h4>
+                                        <p>Receive a detailed assessment via email</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field__button">
+                                <button type="button" class="start-form action-button">Start Assessment
+                                    <img src="assets/img/arrow-right.svg" alt="">
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>Do you have a dedicated cybersecurity team or partner?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box1">
+                                            <div class="input__container">
+                                                <input type="radio" id="box1" name="question1" value="internal">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Yes, internal team</h5>
+                                                <p>We have a dedicated security team in-house</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box2">
+                                            <div class="input__container">
+                                                <input type="radio" id="box2" name="question1" value="outsourced">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Outsourced partner</h5>
+                                                <p>We work with a managed security service provider</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box3">
+                                            <div class="input__container">
+                                                <input type="radio" id="box3" name="question1" value="partial">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Partial coverage</h5>
+                                                <p>We have some security resources, but not comprehensive</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box4">
+                                            <div class="input__container">
+                                                <input type="radio" id="box4" name="question1" value="none1">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>No dedicated team</h5>
+                                                <p>Security is handled ad-hoc by IT staff</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>How often do you conduct penetration testing?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box12">
+                                            <div class="input__container">
+                                                <input type="radio" id="box12" name="question2" value="Quarterly">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>
+                                                    Quarterly</h5>
+                                                <p>We test critical systems every 3 months</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box22">
+                                            <div class="input__container">
+                                                <input type="radio" id="box22" name="question2" value="Annually">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Annually</h5>
+                                                <p>We conduct annual pen-tests</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box33">
+                                            <div class="input__container">
+                                                <input type="radio" id="box33" name="question2" value="Occasionally">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Occasionally</h5>
+                                                <p>We test when required or after major changes</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box44">
+                                            <div class="input__container">
+                                                <input type="radio" id="box44" name="question2" value="none2">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Never</h5>
+                                                <p>We haven't conducted penetration testing</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>Do you have an incident response plan tested in the last 12 months?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box122">
+                                            <div class="input__container">
+                                                <input type="radio" id="box122" name="question3" value="Yes">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>
+                                                    Yes</h5>
+                                                <p>We have a plan that's regularly tested and updated</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box222" name="question3" value="not-tested">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Not tested</h5>
+                                                <p>We have a plan but haven't tested it recently</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box333">
+                                            <div class="input__container">
+                                                <input type="radio" id="box333" name="question3" value="building">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>We're building one</h5>
+                                                <p>We're in the process of developing a plan</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box444">
+                                            <div class="input__container">
+                                                <input type="radio" id="box444" name="question3" value="none3">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>No plan</h5>
+                                                <p>We don't have a formal incident response plan</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>Do you monitor for threats 24/7?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box1222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box1222" name="question4" value="24/7">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Yes, fully monitored</h5>
+                                                <p>We have 24/7 security monitoring</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box2222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box2222" name="question4"
+                                                    value="Partial-coverage">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Partial coverage</h5>
+                                                <p>We have some monitoring but not comprehensive</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box3333">
+                                            <div class="input__container">
+                                                <input type="radio" id="box3333" name="question4" value="Office-hours">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Office hours only</h5>
+                                                <p>We monitor during business hours</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box4444">
+                                            <div class="input__container">
+                                                <input type="radio" id="box4444" name="question4" value="none4">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Not monitored</h5>
+                                                <p>We don't have proactive threat monitoring</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>How confident are you in meeting compliance requirements (e.g., GDPR, ISO,
+                                        NIS2)?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box12222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box12222" name="question5"
+                                                    value="Very-confident">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Very confident</h5>
+                                                <p>We regularly assess and maintain compliance</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box22222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box22222" name="question5" value="Somewhat">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Somewhat</h5>
+                                                <p>We're working toward compliance</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box33333">
+                                            <div class="input__container">
+                                                <input type="radio" id="box33333" name="question5"
+                                                    value="Minimal-effort">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Minimal effort</h5>
+                                                <p>We address compliance basics</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box44444">
+                                            <div class="input__container">
+                                                <input type="radio" id="box44444" name="question5" value="none5">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Not sure</h5>
+                                                <p>We haven't assessed our compliance status</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <div class="form__question">
+                                <div class="form__question__title">
+                                    <h4>Have you experienced a breach in the last 2 years?</h4>
+                                </div>
+                                <div class="form__input__question">
+                                    <div class="single__input__question">
+                                        <label for="box122222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box122222" name="question6" value="no-breaches">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>No</h5>
+                                                <p>No breaches or major security incidents</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box222222">
+                                            <div class="input__container">
+                                                <input type="radio" id="box222222" name="question6"
+                                                    value="yes-incident">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Yes</h5>
+                                                <p>We've had at least one significant incident</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="single__input__question">
+                                        <label for="box333333">
+                                            <div class="input__container">
+                                                <input type="radio" id="box333333" name="question6" value="none6">
+                                                <div class="custom__radio"></div>
+                                            </div>
+                                            <div class="question__text">
+                                                <h5>Not sure</h5>
+                                                <p>We may have had incidents we're unaware of</p>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button__group">
+                                <button type="button" class="previous action-button-previous" name="previous">
+                                    <i class="fa-solid fa-arrow-left"></i> Back
+                                </button>
+                                <button type="button" class="next action-button" name="next">Next
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </button>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="final-step">
+                            <div class="field__form">
+                                <div class="field__form__title">
+                                    <h1>Tell us a bit about you</h1>
+                                    <p>We'll respond within 1 business day.</p>
+                                </div>
+                                <form action="#" method="post">
+                                    <div class="single__form__input">
+                                        <label for="name">Full Name *</label>
+                                        <input type="text" id="name" placeholder="John Doe">
+                                    </div>
+                                    <div class="single__form__input">
+                                        <label for="email">Work Email *</label>
+                                        <input type="email" id="email" placeholder="you@company.com">
+                                    </div>
+                                    <div class="single__form__input">
+                                        <label for="telephone">Phone Number</label>
+                                        <input type="tel" id="telephone" placeholder="+1 (555) 123-4567">
+                                    </div>
+                                    <div class="message__input">
+                                        <label for="message">Message *</label>
+                                        <textarea name="reason" id="message"
+                                            placeholder="How Can I Help You?"></textarea>
+                                    </div>
+                                    <div class="form__submit">
+                                        <button type="button" value="form__submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- scripts here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="multi-step.js"></script>
+
+    <script>
+        $('#showBtn').on('click', function () {
+            $('#contact__box').slideDown(); // Or just .show() if you want it to appear instantly
+        });
+    </script>
+
+</body>
+
+</html>

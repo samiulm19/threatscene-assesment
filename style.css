@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+.contact__content {
+	margin-top: 48px;
+}
+
+.container {
+    max-width: 1366px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+
+.contact__title {
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    max-width: 752px;
+}
+
+.contact__title h4 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.contact__title p {
+    font-size: 18px;
+}
+
+.contact__text__box {
+    background: #EFF6FF;
+    padding: 40px 80px;
+    border-radius: 10px;
+    max-width: 1024px;
+    margin-inline: auto;
+    border: 1px solid #DBEAFE;
+}
+
+.contact__text h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact__list ul li img {
+    width: 20px;
+}
+
+.contact__list ul li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.next__btn {
+    background: #0323F4;
+    color: #fff;
+    display: inline-flex;
+    gap: 8px;
+    border-radius: 10px;
+    padding: 30px 60px;
+    font-weight: 500;
+    align-items: center;
+    transition: .3s;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.next__btn:hover {
+    background: #1D4ED8;
+}
+
+.next__btn img {
+    width: 20px;
+}
+
+.contact__next span {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.contact__next {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+/* contact box start here */
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+.progress-wrapper {
+    text-align: center;
+    padding: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #DBEAFE;
+    background: #EEF4FF;
+}
+
+.step-counter {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.progress {
+    width: 100%;
+    background-color: #E5E7EB;
+    border-radius: 30px;
+    height: 8px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #021EF2;
+    transition: width 0.5s ease;
+}
+
+
+
+
+
+#contact__box {
+    margin-top: 40px;
+}
+
+.contact__box__content {
+    max-width: 1024px;
+    margin-inline: auto;
+    background: linear-gradient(to bottom, #eff6ff 0%, #feffff 100%);
+    padding: 100px 35px 35px;
+}
+
+.hidden-on-start {
+    display: none;
+}
+
+.form__container {
+    max-width: 768px;
+    margin-inline: auto;
+    border: 1px solid #CCD3FD;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+fieldset {
+
+    border: none;
+}
+
+.contact__box__title {
+    text-align: center;
+    position: relative;
+    max-width: 678px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.contact__box__title h1 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact__box__title p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #222222;
+}
+
+.box__title__span span {
+    font-size: 48px;
+    line-height: 48px;
+    color: #798DF9;
+    font-weight: 700;
+}
+
+.span__left {
+    position: absolute;
+    top: -22px;
+    left: -60px;
+}
+
+.span__right {
+    position: absolute;
+    top: 50%;
+    right: -33px;
+    transform: translateY(-50%);
+}
+
+.field__card__title {
+    text-align: center;
+    background: #EEF3FF;
+    border-bottom: 1px solid #DBEAFE;
+    border-radius: 8px 8px 0 0;
+    padding: 24px;
+}
+
+.field__card__title h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.field__card__title p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.field__user__get {
+    background: #EFF6FF;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+    margin: 24px;
+}
+
+.feature__flex {
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+
+.single__feature {
+    width: 49%;
+    display: flex;
+    gap: 12px;
+}
+
+.feature__text h4 {
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.feature__text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+}
+
+.field__button {
+    padding: 24px;
+    border-top: 1px solid #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.field__button button {
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    background: #0223F4;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: .3s;
+}
+
+.field__button button:hover {
+    background: #1D4ED8;
+}
+
+.field__button button img {
+    width: 20px;
+}
+
+.button__group {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E5E5E5;
+    padding: 24px;
+}
+
+.button__group button {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    gap: 8px;
+    background: #0223F4;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.button__group button img {
+    width: 20px;
+}
+
+.previous.action-button-previous {
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    color: #0A0A0A;
+}
+
+.progress__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.step__tile__text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.step__tile__text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+}
+
+.form__question {
+    padding: 24px;
+}
+
+.single__input__question label {
+    padding: 16px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.form__input__question {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form__question__title h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.question__text h5 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.question__text p {
+    color: #222;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.input__container input {
+    display: none;
+}
+
+label:has(input:checked) {
+    background-color: #EFF6FF;
+    border-color: #0223F4;
+}
+
+label:has(input:checked) .custom__radio {
+    background: #000;
+    border-color: #fff;
+}
+
+.custom__radio {
+    width: 16px;
+    height: 16px;
+    box-shadow: 0 0 0 1px #0622F2;
+    border-radius: 100px;
+    margin-top: 4px;
+    background: transparent;
+    border: 3px solid transparent;
+}
+
+.field__form {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.single__form__input label,
+.message__input label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #0a0a0a;
+}
+
+.single__form__input input {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.message__input textarea {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 8px;
+    padding: 10px 16px;
+    height: 120px;
+}
+
+.form__submit button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #0323F4;
+    border: none;
+    border-radius: 8px;
+}
+
+.field__form__title h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.field__form__title p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #222;
+}
+
+.feature__logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background: #DBEAFE;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+/* contact box start here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+    .contact__text__box {
+        padding: 30px;
+    }
+
+    .contact__list ul li {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .contact__title p {
+        font-size: 16px;
+    }
+
+    .next__btn {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    .contact__next span {
+        font-size: 12px;
+    }
+
+    .contact__title h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .contact__box__content {
+        padding: 80px 24px 24px;
+    }
+
+    .contact__box__title h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .contact__box__title p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .single__feature {
+        width: 100%;
+    }
+
+    .feature__flex {
+        row-gap: 25px;
+    }
+
+    .field__card__title h4 {
+        justify-content: start;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .field__card__title h4 svg {
+        flex-shrink: 0;
+    }
+
+    .field__card__title {
+        text-align: left;
+    }
+
+    .progress__title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .field__button button {
+        padding: 14px 20px;
+    }
+}
